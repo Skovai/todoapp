@@ -1,5 +1,5 @@
 import { call, put, takeLatest } from 'redux-saga/effects'
-import { fetchListSuccess, fetchListFailure } from '../actions/listActions' // Adjust the import based on your action file
+import { fetchListSuccess, fetchListFailure } from '../actions/listActions'
 import axios, { type AxiosResponse } from 'axios'
 
 function * fetchListSaga () {

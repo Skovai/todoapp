@@ -14,7 +14,6 @@ export interface IListData {
   completed: boolean
 }
 
-// Define the root state type
 export interface RootState {
   list: ListState
 }
